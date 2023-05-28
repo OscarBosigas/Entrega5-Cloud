@@ -40,6 +40,8 @@ public class Controller {
     @Autowired
     private EmailService emailService;
 
+
+
     @GetMapping("/allUsers")
     public ResponseEntity<List<UserDto>> allUsers(){
         return ResponseEntity.status(HttpStatus.OK).body(userService.all());
