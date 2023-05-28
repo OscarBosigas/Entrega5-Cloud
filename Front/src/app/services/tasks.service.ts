@@ -8,11 +8,11 @@ import * as FileSaver from 'file-saver';
   providedIn: 'root'
 })
 export class TasksService {
-  private byUserUrl = 'http://34.125.146.78:8080/api/tasks?email';
-  private byIdUrl = 'http://34.125.146.78:8080/api/task';
-  private deleteUrl = 'http://34.125.146.78:8080/api/task?id';
-  private addUrl = 'http://34.125.146.78:8080/api/upload';
-  private downloadUri = 'http://34.125.146.78:8080/api/download?file'
+  private byUserUrl = 'https://back-76yejkspxa-uc.a.run.app/api/tasks?email';
+  private byIdUrl = 'https://back-76yejkspxa-uc.a.run.app0/api/task';
+  private deleteUrl = 'https://back-76yejkspxa-uc.a.run.app/api/task?id';
+  private addUrl = 'https://back-76yejkspxa-uc.a.run.app/api/upload';
+  private downloadUri = 'https://back-76yejkspxa-uc.a.run.app/api/download?file'
 
   constructor(private http: HttpClient) { }
 
